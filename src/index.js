@@ -15,9 +15,8 @@ export default (options = {}) => {
         name: "html-literals",
 
         transform(code, id) {
-            if(!options.filter(id)) {
+            if(!options.filter(id)) return null;
 
-            }
             try {
                 return options.minifyHTMLLiterals(code, { fileName: id });
             } catch (error) {
@@ -29,4 +28,4 @@ export default (options = {}) => {
             }
         }
     };
-}
+};
