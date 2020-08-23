@@ -49,14 +49,14 @@ Default: `false`
 
 If true, will throw an error if any errors were found.
 
-### Options
+### options
 
 Type: `Object`
 Default: `null`
 
 Specify options for [minify-html-literals](https://www.npmjs.com/package/minify-html-literals)
 
-### minifyHtmlLiterals
+### minifyHTMLLiterals
 
 Type: `function`
 Default: `null`

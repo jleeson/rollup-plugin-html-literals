@@ -11,6 +11,8 @@ export default (options = {}) => {
         options.filter = createFilter(options.include, options.exclude);
     }
 
+    const minifyOptions = options.options || {};
+
     return {
         name: "html-literals",
 
@@ -18,7 +20,7 @@ export default (options = {}) => {
             if(!options.filter(id)) return null;
 
             try {
-                return options.minifyHTMLLiterals(code, { fileName: id });
+                return options.minifyHTMLLiterals(code, { ...minifyOptions, fileName: id });
             } catch (error) {
                 if(options.failOnError) {
                     this.error(error.message);
