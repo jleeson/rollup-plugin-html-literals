@@ -2,7 +2,7 @@
 A Rollup plugin to minify html template literals
 
 ![Actions](https://github.com/jleeson/rollup-plugin-html-literals/workflows/build/badge.svg)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/jleeson/rollup-plugin-html-literals/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jleeson/rollup-plugin-html-literals/blob/master/LICENSE)
 [![Donate](https://img.shields.io/badge/patreon-donate-green.svg)](https://www.patreon.com/outwalkstudios)
 
 ---
