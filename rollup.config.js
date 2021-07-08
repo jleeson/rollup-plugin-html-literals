@@ -1,5 +1,5 @@
 /* imports */
-import { terser } from "rollup-plugin-terser";
+import esbuild from "rollup-plugin-esbuild";
 import { dependencies } from "./package.json";
 
 /* build config */
@@ -10,10 +10,9 @@ export default {
         { file: "dist/plugin.cjs.js", format: "cjs", exports: "default" },
     ],
     plugins: [
-        terser({
-            output: {
-                preamble: "/* Copyright (c) 2021 Outwalk Studios */"
-            }
+        esbuild({
+            target: "es2015",
+            minify: true
         })
     ],
     external: Object.keys(dependencies)
