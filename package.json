@@ -19,6 +19,10 @@
     "tagged",
     "lit-html"
   ],
+  "files": [
+    "dist",
+    "types"
+  ],
   "exports": {
     ".": {
       "require": "./dist/plugin.js",
@@ -26,10 +30,6 @@
       "default": "./dist/plugin.mjs"
     }
   },
-  "files": [
-    "dist",
-    "types"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jleeson/rollup-plugin-html-literals.git"
@@ -51,10 +51,6 @@
     "minify-html-literals": "^1.3.5"
   },
   "peerDependencies": {
-    "rollup": "^2.x.x||^3.x.x"
-  },
-  "engines": {
-    "node": ">= 14.0.0",
-    "npm": ">= 8.0.0"
+    "rollup": "^1.x.x||^2.x.x||^3.x.x"
   }
 }
