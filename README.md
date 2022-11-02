@@ -68,7 +68,7 @@ Override the minification function.
 
 Projects such as `lit-html` make use of template literals, and in order to decrease bundle size,
 you need to minify the html markup you write in those template literals. The current solution for rollup, appears to be
-`rollup-plugin-minify-html-literals` but this plugin does not support Rollup v2, and instead is built to support Rollup v0.
+`rollup-plugin-minify-html-literals` but this plugin does not support newer versions of Rollup.
 This plugin acts to solve the compatiblity issue, support newer versions of Rollup and maintain active support.
 
 ---

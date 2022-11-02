@@ -1,8 +1,6 @@
-/* imports */
 import esbuild from "rollup-plugin-esbuild";
 import { dependencies } from "./package.json";
 
-/* build config */
 export default {
     input: "src/index.js",
     output: [
