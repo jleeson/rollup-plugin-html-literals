@@ -1,5 +1,8 @@
 import esbuild from "rollup-plugin-esbuild";
-import { dependencies } from "./package.json";
+import { builtinModules } from "module";
+import fs from "fs";
+
+const { dependencies } = JSON.parse(fs.readFileSync(new URL("./package.json", import.meta.url)));
 
 export default {
     input: "src/index.js",
@@ -10,5 +13,5 @@ export default {
     plugins: [
         esbuild({ target: "es2015", minify: true })
     ],
-    external: Object.keys(dependencies)
+    external: builtinModules.concat(Object.keys(dependencies))
 };
