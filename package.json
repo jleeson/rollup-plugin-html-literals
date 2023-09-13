@@ -5,6 +5,9 @@
   "main": "dist/plugin.js",
   "module": "dist/plugin.mjs",
   "types": "types/plugin.d.ts",
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint src",
