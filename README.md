@@ -3,7 +3,7 @@ A Rollup plugin to minify html template literals
 
 ![Actions](https://github.com/jleeson/rollup-plugin-html-literals/workflows/build/badge.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jleeson/rollup-plugin-html-literals/blob/master/LICENSE)
-[![Donate](https://img.shields.io/badge/patreon-donate-green.svg)](https://www.patreon.com/outwalkstudios)
+[![Follow Us](https://img.shields.io/badge/follow-on%20twitter-4AA1EC.svg)](https://twitter.com/jleesons)
 
 ---
 
@@ -67,7 +67,7 @@ Override the minification function.
 ## Why
 
 Projects such as `lit-html` make use of template literals, and in order to decrease bundle size,
-you need to minify the html markup you write in those template literals. The current solution for rollup, appears to be
+you need to minify the html markup you write in those template literals. The current solution for Rollup, appears to be
 `rollup-plugin-minify-html-literals` but this plugin does not support newer versions of Rollup.
 This plugin acts to solve the compatiblity issue, support newer versions of Rollup and maintain active support.
 
