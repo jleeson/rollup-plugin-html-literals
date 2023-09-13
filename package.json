@@ -28,9 +28,9 @@
   ],
   "exports": {
     ".": {
+      "types": "./types/plugin.d.ts",
       "require": "./dist/plugin.js",
-      "import": "./dist/plugin.mjs",
-      "default": "./dist/plugin.mjs"
+      "import": "./dist/plugin.mjs"
     }
   },
   "repository": {
