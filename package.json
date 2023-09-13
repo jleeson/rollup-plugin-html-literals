@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-html-literals",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "A Rollup plugin to minify html template literals",
   "main": "dist/plugin.js",
   "module": "dist/plugin.mjs",
