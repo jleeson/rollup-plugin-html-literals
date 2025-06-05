@@ -53,7 +53,7 @@ If true, will throw an error if any errors were found.
 Type: `Object`
 Default: `null`
 
-Specify options for [minify-html-literals](https://www.npmjs.com/package/minify-html-literals)
+Specify options for [minify-literals](https://www.npmjs.com/package/minify-literals)
 
 ### minifyHTMLLiterals
 
