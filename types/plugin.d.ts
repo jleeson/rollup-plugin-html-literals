@@ -1,4 +1,4 @@
-import minify from "minify-html-literals";
+import minify from "minify-literals";
 import { Plugin, TransformHook } from "rollup";
 
 declare interface Options {

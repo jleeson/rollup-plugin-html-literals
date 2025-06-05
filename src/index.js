@@ -1,4 +1,4 @@
-import { minifyHTMLLiterals } from "minify-html-literals";
+import { minifyHTMLLiterals } from "minify-literals";
 import { createFilter } from "@rollup/pluginutils";
 
 export default (options = {}) => {
