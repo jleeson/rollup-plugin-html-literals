@@ -1,5 +1,5 @@
 import minify from "minify-literals";
-import { Plugin, TransformHook } from "rollup";
+import { TransformHook } from "rollup";
 
 declare interface Options {
     include? : string | string[];
@@ -10,6 +10,7 @@ declare interface Options {
     filter?: (id: string) => boolean;
 }
 
-export default function (options?: Options) : Plugin & {
+export default function (options?: Options) : {
+    name: string;
     transform: TransformHook;
 };
